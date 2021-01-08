@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-image: url(/img/bg-pattern.png), linear-gradient(to right, rgb(219, 36, 49), rgb(143, 61, 130));
+
+}
+.start {
+    font-size: .7rem;
+    color: yellow;
+    margin-left: 10rem;
+}
+.gomg {
+    font-size: .5rem;
+}
+.end {
+    margin-right: 10rem;
+}
+
+
+
+.startButton {
+    color: white;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    padding: .7rem 2rem;
+    font-size: .5rem;
+    transition-duration: 300ms;
+}
+.startButton:hover {
+    background-color: #fdcc52;
+    text-decoration: none;
+}
+.discover {
+    background-color: rgb(253, 203, 80);
+}
+.apps img {
+    height: 50px;
+}
+
+
+
+
+section.startStop{
+    background-image: url(/img/bg-cta.jpg);
+}
